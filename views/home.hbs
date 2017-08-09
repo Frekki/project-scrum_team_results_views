@@ -10,7 +10,38 @@
 
   {{> header}}
 
-  <p>{{welcomeMessage}}</p>
+  <h1>{{welcomeMessage}}</h1>
+
+  <form name="scrum" method="post" >
+    <p align="left"><b>Chose dates:</b>
+      <input type="date" name="scrumStartDate">
+      <b> - </b>
+      <input type="date" name="scrumEndDate"><Br>
+
+      <b>Chose teams</b>
+        <select form="scrum" name="allTeams" siza="5"></select>
+    </p>
+
+    <p align="right"><b>To add new team please insert valid information:</b><Br>
+    Team name:
+    <input type="text" name="teamName" size="40"><Br>
+
+    Sprint number:
+    <input type="number" name="sprintNumber" size="20"><Br>
+
+    Date:
+    <input type="date" name="comletedAt" ><Br>
+
+    SP achived:
+    <input type="number" name="achived" size="10"><Br>
+
+    SP estimated:
+    <input type="number" name="estimated" size="10"><Br>
+
+    <input type="submit" name="submitButon" value="Create">
+    </p>
+
+  </form>
 
 {{> footer}}
 
