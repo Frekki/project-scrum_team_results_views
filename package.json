@@ -1,0 +1,18 @@
+{
+  "name": "projectfp_08.08",
+  "version": "1.0.0",
+  "description": "scrum team results view",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "STRV"
+  ],
+  "author": "Vitaliy Sobol",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4",
+    "hbs": "^4.0.1"
+  }
+}
